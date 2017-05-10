@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hrGreen{
+	height:10px;
+	width:80%;
+	background-color:#0F0;
+	color:#0F0;
+}
+#menu{
+	height:40px;
+	border: 1px solid red;
+}
+#menu div{
+	width:7%;
+	float:left;
+}
+
+#menu div:hover{
+	cursor:pointer;
+	background-color:#0C0;
+}
+	

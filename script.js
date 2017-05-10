@@ -11,4 +11,3 @@ b:3
 var c={};
  var b=Object.create(a);
 //b.__proto__=a;
-alert((b.prototype));

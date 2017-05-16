@@ -1,0 +1,57 @@
+
+/* -----menu blue border top------
+  <div id="head">
+   	<ul id="menu">
+   	  <li id="first">Главная</li>
+      <li>Одежда</li>
+      <li>О нас</li>
+      <li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+      <li id="log"><i class="fa fa-sign-in" aria-hidden="true"></i></li>
+  	</ul>	
+  </div>
+*/
+
+#head{
+	border: 0px solid green;
+	text-align:right;
+	height:30%;
+	width:70%;
+	margin:0 auto;
+
+}
+#line{
+	width:70%;
+	height:15px;
+	border:1px solid #03F;
+	margin:auto;
+	border-radius:10px;
+}
+#menu{
+	background-color:#E4E8F3;
+	border: 0px solid red;
+	padding-top:2%;
+	padding-bottom:1.4%;
+	margin:0 0;
+	height:100%;
+
+}
+#first{
+	border-top-left-radius:5px;
+}
+#menu li{
+	display:inline;
+	padding: 1.7% 4%;
+	margin:0 0;
+	border: 0px solid #0041F3;
+	background:#E4E8F3;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight:700;
+	color:#415CA6;
+	
+}
+#menu li:hover{
+	cursor:pointer;
+	border-top:4px solid #0041F3;
+	padding-top:1.9%;
+}

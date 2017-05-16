@@ -13,7 +13,7 @@ $(document).ready(function(){
 		}
 	});
 	$('#menu li').on('click',function(){
-		$('#menu li').css({'backgroundColor':'#E4E8F3','border':'1px solid #0041F3','padding-top':'1.7%'});
+		$('#menu li').css({'backgroundColor':'#E4E8F3','border':'0px solid #0041F3','padding-top':'1.7%'});
 		$(this).css({'borderTop':'4px solid #0041F3','borderBottom':'0px solid white','paddingTop':'1.9%','backgroundColor':'white'});
 
 		});

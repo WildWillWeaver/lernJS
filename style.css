@@ -9,7 +9,7 @@ body{
 	border-top-right-radius:5px;
 }
 #content{
-	background-color:#FFF;
+	
 	height:70%;
 	width:70%;
 	margin:auto;
@@ -27,4 +27,36 @@ body{
 	margin:0 0;
 	padding:15px 0;
 	text-align:center;
+}
+.result img{
+	margin-bottom:5%;
+	float:left;
+}
+.result p{
+	text-align:justify;
+}
+.container{
+	background-color:#FFF;
+	width:70%;
+}
+.btn-link{
+	padding:0;
+}
+.autoriz{
+	display:none;
+}
+#contact_form{
+	margin:0 40%;
+}
+#contact_form input,a{
+	margin: 3% 0;
+	padding:2% 2%;
+	border:1px solid #5bc0de;
+	border-radius:3px;
+}
+.btn-info-outline{
+	border-color:#5bc0de;
+}
+.myRec{
+	display:none;
 }

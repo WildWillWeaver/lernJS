@@ -17,15 +17,30 @@
   <div id="head">
    	<ul id="menu">
    	  <li id="first">Главная</li>
-      <li>Рецепты</li>
-      <li>О нас</li>
+      <li id="recipe">Блюда</li>
+	  <li>О нас</li>
       <li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
       <li id="log"><i class="fa fa-sign-in" aria-hidden="true"></i></li>
   	</ul>	
   </div>
-  <div id="content">
-   
+  <div id="content"> 
   </div>
+  
+  <div class="container w result" >
+  </div>
+  
+  
+  <div class="autoriz">
+    <form id="contact_form" role="form" method="post" action="./include/order.php">
+        <h3>Войти</h3><span></span>
+        <input type="text" class="name"  placeholder="Имя">
+        <input type="password" name="tel"  class="pass" placeholder="Пароль">
+        <!--<textarea name="message" placeholder="Message" rows="5"></textarea>/!-->
+		<button type="button" class="btn btn-info-outline btn-sm">Отправить</button>
+    </form>
+</div>
+	
+	
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    	<script src="script.js"></script>
     <script src="https://use.fontawesome.com/268e0153dd.js"></script>

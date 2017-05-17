@@ -42,12 +42,13 @@ $(document).ready(function(){
 	var flag=false;
 	var i=1;
 	$('#log').click(function(){
-		if(i%2==0){
+		if(flag){
 			$(this).html('<i class="fa fa-sign-out" aria-hidden="true"></i>');
 			$(".result").html("<h1>Сессия окончена...</h1>");
 			$(".result").fadeIn(2000,function(){
 				$('#menu li:first').trigger('click');
 			});
+			flag=false;
 		}
 		else {
 			$(".result").html($('.autoriz').html())
@@ -69,6 +70,7 @@ $(document).ready(function(){
 					$('.result').html("<button type='button' class='btn btn-secondary'>Secondary</button>"+
 					"<button type='button' class='btn btn-secondary'>Secondary</button>"+
 					"<button type='button' class='btn btn-secondary'>Secondary</button>");
+					flag=true;
 				}
 				},
 			complete: function(){

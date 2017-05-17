@@ -12,6 +12,7 @@
 			{
 				if($row['name']==$name&&$row['pass']==$pass){
 					$text=1;
+					break;
 				}
 				else trim($text=0);
 
